@@ -18,6 +18,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,7 +65,7 @@
       <recent name="C:\Workspace\study\study_kotlin\sample\src\main\kotlin\io\github\ailnk0" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MainTest.testVararg">
+  <component name="RunManager" selected="Gradle.MainTest.testList">
     <configuration name="MainTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,7 +114,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MainTest.testMul" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainTest.testList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +127,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;io.github.ailnk0.MainTest.testMul&quot;" />
+            <option value="&quot;io.github.ailnk0.MainTest.testList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MainTest.testList" />
         <item itemvalue="Gradle.MainTest.testVararg" />
         <item itemvalue="Gradle.MainTest.testOpFun" />
         <item itemvalue="Gradle.MainTest.testInfix" />
         <item itemvalue="Gradle.MainTest" />
-        <item itemvalue="Gradle.MainTest.testMul" />
       </list>
     </recent_temporary>
   </component>

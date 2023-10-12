@@ -60,4 +60,37 @@ class MainTest {
         val actual = getLog("Alpha", "Beta", "Gamma", prefix = "[LOG] ")
         Assertions.assertEquals(expected, actual)
     }
+
+    @Test
+    fun testList() {
+        run {
+            val mutableList: MutableList<Int> = mutableListOf(1,2,3)
+
+            // Ref
+            val list: List<Int> = mutableList
+
+            Assertions.assertEquals(3, mutableList.count())
+            Assertions.assertEquals(3, list.count())
+
+            mutableList.removeAt(0)
+
+            Assertions.assertEquals(2, mutableList.count())
+            Assertions.assertEquals(2, list.count())
+        }
+
+        run {
+            val list: List<Int> = listOf(1,2,3)
+
+            // Copy
+            val mutableList: MutableList<Int> = list.toMutableList()
+
+            Assertions.assertEquals(3, mutableList.count())
+            Assertions.assertEquals(3, list.count())
+
+            mutableList.removeAt(0)
+
+            Assertions.assertEquals(2, mutableList.count())
+            Assertions.assertEquals(3, list.count())
+        }
+    }
 }
